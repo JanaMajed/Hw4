@@ -2,63 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
-      <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body id="top">
 
-<header>
-    <h1>My Projects</h1>
-</header>
+    <div class="background-circle circle-one"></div>
+    <div class="background-circle circle-two"></div>
+    <div class="background-circle circle-three"></div>
 
-<nav role="navigation">
-    <a href="index.html">Home</a> |
-    <a href="cv.html">CV</a> |
-    <a href="projects.html">Projects</a> |
-    <a href="contact.html">Contact</a>
-</nav>
+    <header class="top-header">
+        <div class="logo">JM</div>
 
-<main>
+        <nav role="navigation">
+            <a href="index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-<article>
-    <h2>Graduation Project – Multimodal Fake News Detection</h2>
+    <main>
+        <h1 class="page-title">Projects</h1>
 
-    <time datetime="2025-08">August 2025 – Present</time>
+        <section class="projects-grid">
 
-    <p>
-        A Multimodal Deep Learning Approach for Fake News Detection 
-        Across Text and Visual Modalities.
-    </p>
+            <article class="project-card">
+                <figure class="project-figure">
+                    <img src="Multimodal.png" alt="Preview of the multimodal fake news detection graduation project">
+                    <figcaption>Graduation project preview for multimodal fake news detection.</figcaption>
+                </figure>
 
-    <figure>
-        <img src="Multimodal.png" alt="Multimodal Graduation Project Image" width="200">
-       
-    </figure>
+                <div class="project-content">
+                    <h2>Graduation Project – Multimodal Fake News Detection</h2>
+                    <p class="project-date">August 2025 – Present</p>
 
-<a href="multimodal.pdf" target="_blank">View Project</a>
-</article>
+                    <p>
+                        A multimodal deep learning project for detecting fake news
+                        using both text and image information.
+                    </p>
 
-<article>
-    <h2>Marwed – Tourist Guide App in Saudi Arabia.</h2>
+                    <a href="multimodal.pdf" target="_blank" class="project-btn">View Project</a>
+                </div>
+            </article>
 
-<p> May 2025</p>
-<p>
-An academic group project developed as part of the System Analysis & Design course.
-The system focuses on designing a centralized tourism guide application 
-that helps residents and visitors discover attractions, events, and activities.
-</p>
-<img src="marwed.png" alt="Marwed Project Image" width="300">
-<br><br>
-<a href="marwed.pdf" target="_blank">View Project</a>
-</article>
+            <article class="project-card">
+                <figure class="project-figure">
+                    <img src="marwed.png" alt="Preview of the Marwed tourist guide application project">
+                    <figcaption>Interface preview of the Marwed tourist guide application.</figcaption>
+                </figure>
 
-</main>
+                <div class="project-content">
+                    <h2>Marwed – Tourist Guide App in Saudi Arabia</h2>
+                    <p class="project-date">May 2025</p>
 
-<footer>
-    <p>© 2026 Jana Majed Alamer</p>
-    <a href="#top">Back to Top</a>
-</footer>
+                    <p>
+                        An academic group project developed for System Analysis & Design,
+                        focused on building a centralized tourism guide application for Saudi Arabia.
+                    </p>
 
+                    <a href="marwed.pdf" target="_blank" class="project-btn">View Project</a>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Jana Majed Alamer</p>
+        <p><a href="#top">Back to Top</a></p>
+    </footer>
 
 </body>
 </html>
