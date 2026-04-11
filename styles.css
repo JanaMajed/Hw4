@@ -297,16 +297,26 @@ a:hover {
 
 
 footer {
-    text-align: center;
-    padding: 1.2rem;
-    margin-top: 2rem;
-    color: #4b2e83;
-    font-size: 0.95rem;
+    text-align: center;  
+    padding: 20px;
+    background-color: #f4f4f4; 
+    margin-top: 40px;
 }
 
-footer a {
+footer p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.back-to-top {
+    display: block;       
     text-decoration: none;
     font-weight: bold;
+    color: #333;
+}
+
+.back-to-top:hover {
+    color: #007BFF; 
 }
 
 @media (max-width: 900px) {
