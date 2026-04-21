@@ -267,6 +267,12 @@ p {
     color: white;
 }
 
+.project-content button.project-btn {
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
 
 ul {
     list-style-type: square;
