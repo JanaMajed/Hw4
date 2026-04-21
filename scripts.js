@@ -7,8 +7,7 @@ function showLoadTime() {
 
     var currentDate = new Date();
 
-    var text = document.createTextNode("Page loaded on: " + currentDate);
-
+      var text = document.createTextNode("Page loaded on: " + currentDate.toLocaleString());
     newParagraph.appendChild(text);
 
     footer.appendChild(newParagraph);
